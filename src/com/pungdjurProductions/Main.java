@@ -7,7 +7,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        new TimeStep();
+        TimeStep t = new TimeStep();
+        
+        t.start();
 
     }
 }
